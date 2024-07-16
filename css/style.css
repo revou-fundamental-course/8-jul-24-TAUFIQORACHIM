@@ -17,6 +17,9 @@
     flex: 1;
     padding: 10px;
     margin: 10px;
+    font-size: medium;
+    font-style: italic;
+    
 }
 
  main{
@@ -38,5 +41,21 @@
     margin: 10px;
 
 }
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid gray;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=number]:focus {
+    border:3px solid green;
+  }
+
+
 
  
