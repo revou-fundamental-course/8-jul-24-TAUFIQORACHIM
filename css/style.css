@@ -1,10 +1,15 @@
 /* ini css */
 
+body{
+    background-image: url(https://images.pexels.com/photos/4709484/pexels-photo-4709484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=11);
+    background-position: center;
+    background-size: cover;
+}
 
 .header-conten{
     text-align: center;
     font-style: oblique;
-    color: goldenrod;
+    color: rgb(238, 182, 11);
 }
 
 
@@ -27,12 +32,20 @@
     justify-content: space-around;
  }
 
+
  .main-content{
     border: 3px solid;
     flex: 1;
     padding: 10px;
     margin: 10px;
+   ;
 }
+
+.content {
+   
+    
+}
+
 
 .main-result {
     border: 3px solid;
@@ -50,6 +63,9 @@ input[type=number] {
     border: 3px solid gray;
     transition: 0.5s;
     outline: none;
+    
+
+    
   }
   
   input[type=number]:focus {
