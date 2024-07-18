@@ -18,160 +18,163 @@
 
 
         <!-- Main Articel -->
-         <article class="main-articel">
-            <div>
-                <p>
-                    BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. 
-                    It is widely used as a general indicator of whether a person has a healthy body weight for their height. 
-                    Specifically, the value obtained from the calculation of BMI is used to categorize whether a person is underweight, normal weight, overweight, or obese depending on what range the value falls between. 
-                    These ranges of BMI vary based on factors such as region and age, and are sometimes further divided into subcategories such as severely underweight or very severely obese. 
-                    Being overweight or underweight can have significant health effects, so while BMI is an imperfect measure of healthy body weight, it is a useful indicator of whether any additional testing or action is required. 
-                    
-               </p>   
-            </div>
-
-           <div>
-                <ol>
-                    <li>
-                        Health Evaluation: BMI provides an initial indication of a person's weight status.
-                        By knowing the BMI value, a person can evaluate whether their body weight is within a healthy range according to their height.
-                    </li>
-
-                    <li>
-                        ealth Prevention: Knowing BMI can help in preventing weight-related health problems,
-                        such as obesity or malnutrition. This allows a person to take preventive measures or lifestyle changes if necessary. 
-                    </li>
-                    
-                    <li>
-                        Progress Monitoring: By monitoring changes in BMI over time,
-                        a person can track progress in a weight loss or body mass increase program.  
-                    </li>
-
-                    <li>
-                        Diet and Fitness Planning: BMI can be a guide in planning a diet and fitness program. 
-                        This helps set goals that are realistic and appropriate to individual needs.
-                    </li>
-
-                    <li>
-                        Medical Screening: BMI is used in medical practice as an initial screening tool for weight-related health problems,
-                        such as type 2 diabetes, heart disease, and high blood pressure. 
-                    </li>
-
-                    <li>
-                        Use in Public Health: On a population scale, 
-                        BMI is used to monitor public health trends related to obesity and other health problems.
-    
-                    </li>
-                </ol>
-            </div>
-           
-        </article>
-
-
-         
-        <!-- form -->
-
-        <form class="main-content">
-               
-            <div class="content1">
+         <div id="articel1">
+            <article class="main-articel">
                 <div>
-                    <h4>Sex</h4>
-                    <input type="radio" id="selction-man"><label for="selection-man">male</label>
-                    <input type="radio" id="selction-woman"><label for="selection-woman">female</label> 
-                </div>
-
-                <div>
-                    <label for="weight">Weight (kg)</label>
-                    <input type="number" id="weight" min="0" step="0.01" value="0" />
-                </div>
-          
-                 <div>
-                    <label for="height">Height (cm)</label>
-                    <input type="number" id="height" min="0" step="0.01" value="0" />
-                </div>
-
-                <div>
-                    <label for="usia">Age (years)</label>
-                    <input type="number" id="usia" min="0" step="0.01" value="0" />
-                </div>
-          
-                <div class="calculator-button">
-                    <button type="reset">Reset</button>
-                    <button type="submit">Submit</button>
-                </div>
-            </div>
-        </form>
-
-
-        <!-- result -->
-        <section class="result">
-            <section class="output">
-                <h3>Your BMI is</h3>
-                <p id="bmi">0</p>
-                <p id="desc">N/A</p>
-            </section>
-    
-        
-            <section class="bmi-scale">
-                    <div style="--color: var(--underweight)">
-                    <h4>Underweight</h4>
-                    <p>&lt; 18.5</p>
-                    </div>
-            
-                    <div style="--color: var(--healthy)">
-                    <h4>Healthy</h4>
-                    <p>18.5 - 25</p>
-                    </div>
-            
-                    <div style="--color: var(--overweight)">
-                    <h4>Overweight</h4>
-                    <p>25 - 30</p>
-                    </div>
-            
-                    <div style="--color: var(--obesitas)">
-                    <h4>Obesitas</h4>
-                    <p>≥ 30</p>
-                    </div> 
-            </section>
-
-            <section>
-                <div class="result2">
-                    <h1>
-                        <ol> 
-                            <h1> Underweight</h1>
-                            <li>People with a BMI below 18.5 are considered underweight</li>
-                            <li>Health risks associated with being underweight may include malnutrition, osteoporosis, and immune system issues</li>
-                        </ol>
-
-                        <ol>
-                            <h1>Healthy</h1>
-                            <li>People with a BMI in this range are considered to have a healthy weight</li>
-                            <li>The associated health risks are generally considered low</li>
-                        </ol>
-
-                        <ol>
-                            <h1>overweight</h1>
-                            <li>People with a BMI between 25 and 29.9 are considered overweight</li>
-                            <li>Health risks associated with being overweight may include cardiovascular diseases, high blood pressure, and type 2 diabetes</li>
-                        </ol>
-
-                        <ol>
-                            <h1>Obesitas</h1>
-                            <li>People with a BMI of 30 or higher are considered obese.</li>
-                            <li>Obesity is divided  into three classes:
-                                <ol>
-                                    <li>Class 1 Obesity (BMI 30-34.9)
-                                    </li>
-                                    <li>Class 2 Obesity (BMI 35-39.9)</li>
-                                    <li>Class 3 Obesity or Extreme Obesity (BMI ≥ 40)</li>
-                                </ol>
-                            <li>Health risks associated with obesity include heart disease, type 2 diabetes, sleep apnea, fatty liver disease, and various types of cancer</li>
-                        </ol>
+                    <p>
+                        BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. 
+                        It is widely used as a general indicator of whether a person has a healthy body weight for their height. 
+                        Specifically, the value obtained from the calculation of BMI is used to categorize whether a person is underweight, normal weight, overweight, or obese depending on what range the value falls between. 
+                        These ranges of BMI vary based on factors such as region and age, and are sometimes further divided into subcategories such as severely underweight or very severely obese. 
+                        Being overweight or underweight can have significant health effects, so while BMI is an imperfect measure of healthy body weight, it is a useful indicator of whether any additional testing or action is required. 
                         
-                    </h1>
+                   </p>   
                 </div>
+    
+               <div>
+                    <ol>
+                        <li>
+                            Health Evaluation: BMI provides an initial indication of a person's weight status.
+                            By knowing the BMI value, a person can evaluate whether their body weight is within a healthy range according to their height.
+                        </li>
+    
+                        <li>
+                            ealth Prevention: Knowing BMI can help in preventing weight-related health problems,
+                            such as obesity or malnutrition. This allows a person to take preventive measures or lifestyle changes if necessary. 
+                        </li>
+                        
+                        <li>
+                            Progress Monitoring: By monitoring changes in BMI over time,
+                            a person can track progress in a weight loss or body mass increase program.  
+                        </li>
+    
+                        <li>
+                            Diet and Fitness Planning: BMI can be a guide in planning a diet and fitness program. 
+                            This helps set goals that are realistic and appropriate to individual needs.
+                        </li>
+    
+                        <li>
+                            Medical Screening: BMI is used in medical practice as an initial screening tool for weight-related health problems,
+                            such as type 2 diabetes, heart disease, and high blood pressure. 
+                        </li>
+    
+                        <li>
+                            Use in Public Health: On a population scale, 
+                            BMI is used to monitor public health trends related to obesity and other health problems.
+        
+                        </li>
+                    </ol>
+                </div>
+               
+            </article>
+    
+    
+             
+            <!-- form -->
+    
+            <form class="main-content">
+                   
+                <div class="content1">
+                    <div>
+                        <h4>Sex</h4>
+                        <input type="radio" id="selction-man"><label for="selection-man">male</label>
+                        <input type="radio" id="selction-woman"><label for="selection-woman">female</label> 
+                    </div>
+    
+                    <div>
+                        <label for="weight">Weight (kg)</label>
+                        <input type="number" id="weight" min="0" step="0.01" value="0" />
+                    </div>
+              
+                     <div>
+                        <label for="height">Height (cm)</label>
+                        <input type="number" id="height" min="0" step="0.01" value="0" />
+                    </div>
+    
+                    <div>
+                        <label for="usia">Age (years)</label>
+                        <input type="number" id="usia" min="0" step="0.01" value="0" />
+                    </div>
+              
+                    <div class="calculator-button">
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+    
+    
+            <!-- result -->
+            <section class="result">
+                <section class="output">
+                    <h3>Your BMI is</h3>
+                    <p id="bmi">0</p>
+                    <p id="desc">N/A</p>
+                </section>
+        
+            
+                <section class="bmi-scale">
+                        <div style="--color: var(--underweight)">
+                        <h4>Underweight</h4>
+                        <p>&lt; 18.5</p>
+                        </div>
                 
-            </section>
+                        <div style="--color: var(--healthy)">
+                        <h4>Healthy</h4>
+                        <p>18.5 - 25</p>
+                        </div>
+                
+                        <div style="--color: var(--overweight)">
+                        <h4>Overweight</h4>
+                        <p>25 - 30</p>
+                        </div>
+                
+                        <div style="--color: var(--obesitas)">
+                        <h4>Obesitas</h4>
+                        <p>≥ 30</p>
+                        </div> 
+                </section>
+    
+                <section>
+                    <div class="result2">
+                        <h1>
+                            <ol> 
+                                <h1> Underweight</h1>
+                                <li>People with a BMI below 18.5 are considered underweight</li>
+                                <li>Health risks associated with being underweight may include malnutrition, osteoporosis, and immune system issues</li>
+                            </ol>
+    
+                            <ol>
+                                <h1>Healthy</h1>
+                                <li>People with a BMI in this range are considered to have a healthy weight</li>
+                                <li>The associated health risks are generally considered low</li>
+                            </ol>
+    
+                            <ol>
+                                <h1>overweight</h1>
+                                <li>People with a BMI between 25 and 29.9 are considered overweight</li>
+                                <li>Health risks associated with being overweight may include cardiovascular diseases, high blood pressure, and type 2 diabetes</li>
+                            </ol>
+    
+                            <ol>
+                                <h1>Obesitas</h1>
+                                <li>People with a BMI of 30 or higher are considered obese.</li>
+                                <li>Obesity is divided  into three classes:
+                                    <ol>
+                                        <li>Class 1 Obesity (BMI 30-34.9)
+                                        </li>
+                                        <li>Class 2 Obesity (BMI 35-39.9)</li>
+                                        <li>Class 3 Obesity or Extreme Obesity (BMI ≥ 40)</li>
+                                    </ol>
+                                <li>Health risks associated with obesity include heart disease, type 2 diabetes, sleep apnea, fatty liver disease, and various types of cancer</li>
+                            </ol>
+                            
+                        </h1>
+                    </div>
+                    
+                </section>
+         </div>
+         
                     
         </section>
 
