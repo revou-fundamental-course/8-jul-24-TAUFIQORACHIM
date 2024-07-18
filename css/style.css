@@ -1,11 +1,16 @@
 /* ini css */
 
+*{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+
 body{
     background-image: url(https://images.pexels.com/photos/4709484/pexels-photo-4709484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=11);
     background-position: center;
-a
+    background-size: cover;
 }
-
 
 .header-conten{
     text-align: center;
@@ -13,10 +18,18 @@ a
     color: rgb(238, 182, 11);
 }
 
-
-.main-title {
-    text-align: center;
+.header-conten h1{
+  font-size: 30px;
+  font-family: 'sans-serif';
 }
+
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 .main-articel {
@@ -25,39 +38,10 @@ a
     padding: 10px;
     margin: 10px;
     font-size: medium;
-    font-style: italic;
-  
-    
-}
-
- main{
-    display: flex;
-    justify-content: space-around;
- }
-
-
- .main-content{
-    border: 3px solid;
-    flex: 1;
-    padding: 10px;
-    margin: 10px;
-   ;
-}
-
-
-.content {
-   
     
 }
 
 
-.main-result {
-    border: 3px solid;
-    flex: 1;
-    padding: 10px;
-    margin: 10px;
-
-}
 
 
 input[type=number] {
@@ -68,19 +52,121 @@ input[type=number] {
     border: 3px solid gray;
     transition: 0.5s;
     outline: none;
-    
-    
+}
+  
+
+input[type=number]:focus {
+    border:3px solid green;
+}
+
+
+.main-content{
+   
+    gap: 1rem;
+    border: 3px solid;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+  } 
+
+.content1 {
+  gap: 1rem;
+  flex: 1;
+  padding: 10px;
+  margin: auto;
+} 
+
+.content1 div{
+  margin-bottom:80px ; 
+}
+
+  .calculator-button {
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
   
-  input[type=number]:focus {
-    border:3px solid green;
+  
+  .result {
+  
+    gap: 1rem;
+    flex: 1;
+    border: 3px solid;
+    padding: 10px;
+    margin: 10px
   }
 
 
-  .main-result {
+  .result2 ol li{
+    font: caption;
+  }
+  
+
+  
+  .output {
     text-align: center;
-    font-size:2rem;
   }
+  
+
+  .output #desc strong {
+    text-transform: uppercase;
+    font-size: 4rem;
+  }
+
+
+  .calculator-button{
+    background-color: grey;
+    height: 20px;
+    width: 122px;
+}
+  
+
+  
+   
+  .bmi-scale {
+    display: flex;
+  }
+   
+  .bmi-scale div {
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 5px solid var(--color);
+    padding: 10px;
+  }
+   
+
+  
+   .underweight {
+    color: var(--underweight);
+  }
+  
+  .healthy {
+    color: var(--healthy);
+  }
+  
+  .overweight {
+    color: var(--overweight);
+  }
+  
+  .obese {
+    color: var(--obesitas);
+  }
+
+  :root {
+    --underweight: orange;
+    --healthy: green;
+    --overweight: lightcoral;
+    --obesitas: crimson;
+  } 
+  
+  
+
 
 
 
